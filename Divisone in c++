@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <iostream>
+
+using namespace std;
+int main(){
+	
+  cout<<"Programma x sommare 2 numeri!!!"<<endl;
+  
+  int numero1, numero2, ris;
+  
+  cout<<"Inserisci il primo numero: ";
+    cin>>numero1;
+  
+  cout<<"Inserisci il secondo numero: ";
+    cin>>numero2;
+    
+	ris=numero1/numero2;
+  
+  cout<<"Il risultato e': "<<ris;
+}
